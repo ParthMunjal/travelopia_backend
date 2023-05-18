@@ -19,6 +19,10 @@ connection.once('open', () => {
     console.log('MongoDB database connection established successfully');
 })
 
+const submissionsRouter = require('./routes/submissions');
+
+app.use('/submissions', submissionsRouter);
+
 app.listen(port, () => {
     console.log(`server is running on port: ${port}`);
 });
