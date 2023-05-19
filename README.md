@@ -115,3 +115,22 @@ If you encounter any issues or errors while setting up or running the applicatio
   
 - If there is an error while starting the backend server where your IP address is not able to access the database, then you can configure the network access settings for the database to "allow access from anywhere" temporarily or add the specific IP addresses
 
+## User Interface
+- Form component showing error message when submitted with empty, invalid values.
+
+![form-component-error-message](https://github.com/ParthMunjal/travelopia_backend/assets/81214567/46c25bdd-4019-4d04-9f6b-34c0d8027b96)
+
+- Form component showing success message for successful submission.
+
+![form-component-success-message](https://github.com/ParthMunjal/travelopia_backend/assets/81214567/8c862963-1ffc-4f39-9159-08eccb6759dd)
+
+- Form compnonent for displaying the list of all submissions.
+
+![All-submissions-component](https://github.com/ParthMunjal/travelopia_backend/assets/81214567/151be2fe-ed43-4f2b-b813-da37aba1dd9d)
+
+
+
+
+
+
+
